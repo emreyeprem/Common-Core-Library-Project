@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import BaseLayout from './components/BaseLayout'
 import HomePage from './components/HomePage'
 import Filter from './components/Filter'
+import Footer from './components/Footer'
 
 import { createStore } from 'redux'
 import reducer from './store/reducer'
@@ -25,7 +26,8 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/filter" component={Filter} />
-  
+        <Route exact path="/homepage" component={HomePage} />
+
       </Switch>
 
     </BaseLayout>
