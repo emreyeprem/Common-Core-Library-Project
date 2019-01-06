@@ -21,6 +21,17 @@ class HomePage extends Component {
       <div>
 
       <header className="masthead bg-primary text-white text-center searchheader" >
+
+
+            <ul className="listItemUl">
+              <li className="listItemHeader">Home</li>
+              <li className="listItemHeader">About Us</li>
+              <li className="listItemHeader">Help</li>
+              <li className="listItemHeader">Schools</li>
+              <hr />
+            </ul>
+
+
           <div className="row padMar">
               <div className="col padMar">
                   <div className="input-group">

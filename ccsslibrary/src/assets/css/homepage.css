@@ -7,15 +7,28 @@
   margin-right: 150px;
 }
 .searchheader{
-  margin-left: 18%;
-  height: 200px;
-
-
+ margin-left: 18%;
+ height: 200px;
  margin-right: 0px !important;
  height: 200px;
  width:83% !important;
  background-color: rgb(24,188,156);
  z-index:-1 !important;
+}
+.listItemUl{
+  display: flex;
+  flex-direction: row;
+  margin-left: 46rem !important;
+  margin-top: -5rem !important;
+  list-style: none;
+  padding-bottom: 1rem !important;
+}
+.listItemHeader{
+  color: white !important;
+  padding: 10px !important;
+}
+.listItemHeader:hover {
+    text-decoration: underline;
 }
 .cardMainContainer{
   width: 89vw;
