@@ -33,6 +33,9 @@ background-color: #666 !important;
  /* opacity: 0.8; */
  color:white;
 }
+MenuItem:hover {
+    text-decoration: underline;
+}
 ::-webkit-scrollbar{
   width: 0px;
   background: transparent;

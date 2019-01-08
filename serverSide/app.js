@@ -8,7 +8,7 @@ const pgp= require('pg-promise')()
 const connectionString= {
    "host": "localhost",
    "port": 5432,
-   "database": "comprof",
+   "database": "ccss",
    "user": "postgres"
  };
 
